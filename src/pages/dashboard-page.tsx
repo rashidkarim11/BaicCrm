@@ -12,9 +12,9 @@ import {
 import { DashboardCard } from "../components/dashboard-card";
 import { dummyChartData } from "../mock/dummyChartData";
 import { useTranslate } from "../context/lang-context";
-let dummyClients = [];
-let dummyDeals = [];
-let dummyTasks = [];
+import { dummyClients } from "../mock/dummyClients";
+import { dummyDeals } from "../mock/dummyDeals";
+import { dummyTasks } from "../mock/dummyTasks";
 
 export function DashboardPage() {
   const { t } = useTranslate();
